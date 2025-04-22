@@ -13,10 +13,29 @@
             color:red;
             font-size: medium;
         }
+        .main-div{
+            width: 100%;
+            display: flex;
+            height: 100vh;
+            align-items: center;
+            justify-content: center;
+        }
+        .internalDiv{
+            border:1px solid blue;
+            margin:20px;
+            padding-inline: 10px;
+            padding-block: 20px;
+        }
     </style>
 </head>
 <body>
-    <p>my name is <span> rohan</span></p>
-    <p>i am a student of full stack</p>
+<div class="main-div">
+    <div style="border:3px solid red; min-height: 400px;min-width: 600px;">
+        <div class="internalDiv">
+            <p>my name is <span> rohan</span></p>
+            <p>i am a student of full stack</p>
+        </div>
+    </div>
+</div>
 </body>
 </html>
