@@ -1,0 +1,34 @@
+p {
+    margin: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main-div {
+    height: 2000px;
+    border:1px solid black;
+    margin: 20px;
+    padding: 50px;
+    position: relative;
+}
+
+.inner {
+    width: 100px;
+    aspect-ratio: 1;
+    background-color: yellowgreen !important;
+    top: 10px;
+   
+
+}
+
+.inner1 {
+    width: 100px;
+    aspect-ratio: 1;
+    background-color: green !important;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+
+}
