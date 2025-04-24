@@ -1,0 +1,57 @@
+p {
+    margin: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.maindiv {
+    height: 2000px;
+    width: 100%;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 50px;
+    position: relative;
+}
+
+.inner {
+    width: 100px;
+    aspect-ratio: 1;
+    background-color: yellow;
+    transform: rotate(40deg) scale(1.5, 1.5) skew(850deg);
+    margin: 80px;
+    position: static;
+    top: 10px;
+    left: 100px;
+    
+    
+}
+.inner1 {
+    width: 100px;
+    aspect-ratio: 1;
+    background-color: green;
+    position: absolute;
+    left: 10px;
+    bottom: 20px;
+}
+
+.inner2 {
+    width: 100px;
+    aspect-ratio: 1;
+    background-color: blue;
+    position: fixed;
+    top: 50%;
+    left: 47%;
+    
+}
+
+.inner3 {
+    width: 100px;
+    aspect-ratio: 1;
+    background-color: red;
+    position: sticky;
+    top: 10px;
+    bottom: 50px;
+    
+}
