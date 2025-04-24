@@ -1,0 +1,37 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.mainDiv{
+   background-color: aqua;
+   margin: 40px;
+   height: 1000px;
+   padding: 10px;
+}
+.internalDiv{
+    border: 2px solid rgb(213, 234, 26);
+    background-color: red;
+    min-width: 300px;
+    min-height: 300px;
+    padding: 20px;
+   
+
+}
+.internalDiv1{
+    border: 2px solid rgb(207, 76, 76);
+    background-color: green;
+     padding : 40px; 
+     margin-block: 20px; 
+     position: absolute;
+     top : 40px;
+     
+    }
+.internalDiv2{
+    width: 300px;
+    aspect-ratio: 1;
+    background-color: yellow;
+}
+p{
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    margin: 10px;
+}
