@@ -1,0 +1,97 @@
+<style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .main-div{
+        
+            height: 40%;
+            width: 30%;
+            border: 2px solid red;
+            padding: 50px;
+            margin: 20px;
+            box-shadow:inset 5px 5px white,20px 20px red,60px 60px yellow, 90px 90px blue, 120px 120px cyan, 150px 150px 20px greenyellow;
+            
+        }
+        .inner{
+            width: 20%;
+            font-weight: 500;
+            font-size: 20px;
+            align-content: center;
+            aspect-ratio: 1;
+            background-color: aqua;
+            transform: rotate(20deg);
+        }
+        .inner1{
+            width: 20%;
+            font-weight: 500;
+            font-size: 20px;
+            align-content: center;
+            aspect-ratio: 1;
+            background-color: red;
+            transform: skew(15deg, 10deg);
+            
+        }
+        .inner2{
+            width: 30%;
+            font-weight: 500;
+            font-size: 20px;
+            align-content: center;
+            aspect-ratio: 1;
+            background-color: yellow;
+            transform: scale(0.5, 0.8);
+        }
+        .inner3{
+            width: 30%;
+            font-weight: 500;
+            font-size: 20px;
+            align-content: center;
+            aspect-ratio: 1;
+            background-color: blue;
+            transform: translate(200px, 30px);
+        }
+        .inner4{
+            width: 30%;
+            font-weight: 500;
+            font-size: 20px;
+            align-content: center;
+            aspect-ratio: 1;
+            background-color: aqua;
+        }
+        .inner5{
+            width: 10%;
+            font-weight: 500;
+            font-size: 20px;
+            align-content: center;
+            aspect-ratio: 1;
+            background-color: red;
+            position: fixed;
+            top: 10px;
+            right: 50%;
+        }
+        .inner6{
+            width: 10%;
+            font-weight: 500;
+            font-size: 20px;
+            align-content: center;
+            aspect-ratio: 1;
+            background-color: beige;
+            position: absolute;
+            left: 50%;
+            right: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            
+           
+        }
+        .inner7{
+            width: 30%;
+            font-weight: 500;
+            font-size: 20px;
+            align-content: center;
+            aspect-ratio: 1;
+            background-color: blue;
+            position: sticky;
+            left: 1px;
+            top: 10px;
+        }
+    </style>
