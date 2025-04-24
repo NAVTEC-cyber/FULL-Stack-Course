@@ -1,0 +1,89 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin:0;
+}
+.hero p{
+    font-size: larger;
+    font-weight: bold;
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(145, 14, 145);
+    position: fixed;
+    bottom: 10px;
+    right:4px;
+    margin-right: 5px;
+    border-radius: 50px;
+    border: 1px solid rgb(255, 20, 204);
+}
+.innerCircle{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(196, 45, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50px;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    top: 0;
+    position: fixed;
+    background-color:rgb(213, 46, 255);
+    box-shadow: 2px 4px 4px rgb(94, 6, 94);
+}
+.hero{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(188, 134, 238);
+    box-shadow: 0px 5px 3px rgb(104, 32, 172);
+    margin-top: 50px;
+}
+.homeBar{
+font-size: large;
+font-weight: bolder;
+color: white;
+margin-left: 10px;
+}
+.cards{
+    width: 80%;
+    height: 400px;
+    position: relative;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-left: 10%;
+}
+
+.card1{
+    width: 20%;
+    height: 80%;
+    background-color: rgb(213, 167, 255);
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 4px 2px rgb(158, 54, 255);
+    transform: skew(-10deg);
+}
+
+.card3{
+    width: 20%;
+    height: 80%;
+    background-color: rgb(213, 167, 255);
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 4px 2px rgb(158, 54, 255);
+    position: absolute;
+    left: 80%;
+    transform: skew(-10deg);
+}
+
+.cards p{
+    font-size: larger;
+    font-weight: lighter;
+    margin-left: 4px;
+}
