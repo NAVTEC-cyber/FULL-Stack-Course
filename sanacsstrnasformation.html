@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zoom on Hover</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    .main-div {
+      height: 100px;
+      width: 100px;
+      border: 1px solid black;
+      margin: 20px;
+      padding: 50px;
+      overflow: hidden; /* Optional: hides overflow when zoomed */
+    }
+
+    .inner {
+      width: 100px;
+      aspect-ratio: 1;
+      background-color: yellowgreen;
+      transition: transform 0.5s ease;
+      transform: scale(1); /* Normal size */
+    }
+
+    .inner:hover {
+      transform: scale(1.5); /* Zoomed in 1.5x */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="main-div">
+    <div class="inner"></div>
+  </div>
+
+</body>
+</html>

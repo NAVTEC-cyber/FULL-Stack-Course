@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Position: Fixed and Sticky</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      margin: 0;
+      padding: 0;
+      height: 2000px; /* For scroll demonstration */
+    }
+
+    .main-div {
+      padding: 20px;
+      background-color: #f8f8f8;
+    }
+
+    .sticky-box {
+      position: sticky;
+      top: 50px;
+      width: 200px;
+      height: 100px;
+      background-color: lightgreen;
+      border: 2px solid green;
+      margin: 30px auto;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .fixed-box {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      width: 150px;
+      height: 100px;
+      background-color: lightcoral;
+      border: 2px solid black;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Fixed box stays in top-right corner -->
+  <div class="fixed-box">
+    SANA MADE A <strong>FIXED BOX</strong>.
+  </div>
+
+  <div class="main-div">
+    <h2>SANA HAS USED : FIXED AMD STICKY</h2>
+
+   
+    <div class="sticky-box">
+      SANA MADE A  <strong>STICKY BOX</strong>.
+    </div>
+  </div>
+
+</body>
+</html>
